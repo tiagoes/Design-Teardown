@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: gray;
+}
+
+.navBar-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left : auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar-container_image {
+    width: 50px;
+    height: auto;
+    padding-top: 25px;
+}
+
+.navBar-container a{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.navBar-container a:hover {
+    background-color: rgb(58, 58, 58);
+    border:2px, solid rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.navBar-container_input{
+    border-radius: 10px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#glass {
+    /* border: 1px solid black; */
+    width: 50px;
+    padding-left: 20px;
+}
+
+.navBar-container_input input {
+    height: 100%;
+    border: 0;
+    border-left: 1px solid black;
+    outline: none;
+    font-size: 20px;
+}
+
+/* main article */
+
+.main-article {
+    /* padding-top: 120px; */
+}
+
+.main-article-top {
+    display: flex;
+}
+
+.main-article-top-right {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.main-article-top-left {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.main-article-bottom {
+    display: flex;
+}
+
+.main-article-bottom-right {;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.main-article-bottom-left {
+    width: 50%;
+    padding-left: 50px;
+}
+
+/* commun mainArticle CSS */
+
+.main-article_writer {
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+
+}
+
+.main-article_writer_image {
+    background-color: black;
+    border: 3px solid gray;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(-15deg);
+}
+
+.main-article_writer_image:hover{
+    transform: rotate(0deg);
+    transition-duration:0.7s;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main-article_writer p {
+    color: white;
+    padding-left: 20px;
+}
+
+.main-article  h2 {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.main-article_comments {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.main-article_visits, 
+.main-article_comments p{
+    color: white;
+    margin-left:10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.main-article_comments_icon {
+    font-size: 25px;
+    color: white;
+    font-size: 15px;
+}
+
+.main-article_visits{
+    display: flex;
+}
+
+/* .main-article_visits {
+
+} */
+
+.main-article_arrow {
+  color: white; 
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#firstArrow {
+    /* color: black; */
+    margin-top: 100px;
+}
+
+/* mainArticleMiddleText */
+.main-article-middleText {
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    width: 500px;
+    top: 145px;
+    left: 30%;
+}
+
+.main-article-middleText span {
+    background-color: white;
+}
+
+/* secondBigArticle */
+.main-article2 {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+
+}
+.main-article2-box:hover{
+    transform: scale(1.1);
+    /* background-color: red; */
+    transition-duration:0.5s;
+}
+
+.main-article2-box {
+    width: 30%;
+    padding-left: 50px;
+    background-color: white;
+}
+
+.main-article2-date {
+    color: rgba(139, 139, 139, 0.979);
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.main-article2 h2 {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.main-article2-author {
+    color: rgb(114, 114, 114);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main-article2-author span{
+  text-decoration: underline;
+}
+
+.main-article2-text{
+    color: blue;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.main-article2-arrow {
+  color: red; 
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* padding: 20px;
+  background-color: blue; */
+}
+
+/* .main-article2-arrow:hover {
+  padding: 20px;
+  background-color: blue;
+  transition-duration:1s;
+} */
+
+
+/* don not forget to see later */
+/* .main-article2-box:hover > .main-article2-arrow {
+  padding: 5px;
+  background-color: blue;
+  transition-duration:0.5s;
+} */
+
+
+.main-article-top-left {
+    background-color: rgb(150, 148, 148);
+    padding-top: 120px;
+}
+
+.main-article-top-right {
+    background-color: rgba(172, 172, 172, 0.651);
+    padding-top: 120px;
+}
