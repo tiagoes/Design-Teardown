@@ -274,3 +274,51 @@ main section:nth-child(n+2){
 .article-section-two-container div{
     height: 350px;
 }
+
+/* article three */
+.article-section-three {
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.article-section-three-container {
+    grid-template-columns: 1fr 5fr;
+    border: 1px solid black;
+    padding-left: 50px;
+    margin-bottom: 180px;
+}
+
+.article-section-three-container p:nth-child(1) {
+    color: gray;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.article-section-three-container p:nth-child(1) span {
+    text-decoration: underline;
+}
+
+.article-section-three-container h2 {
+    font-size: 36px;
+    margin: 18px 0;
+}
+
+.article-section-three-container h2:hover {
+    color: red;
+}
+
+.article-section-three-container p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.article-section-three-container p span {
+    color: gray;
+    font-size: 15px;
+}
+
+.article-section-three-container a {
+    text-decoration: underline;
+    color: blue;
+}
