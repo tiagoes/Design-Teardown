@@ -200,7 +200,6 @@ main section:nth-child(n+2){
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 100px;
     margin-bottom: 100px;
-    border: 1 px solid black;
 
 }
 
@@ -278,14 +277,14 @@ main section:nth-child(n+2){
 /* article three */
 .article-section-three {
     grid-template-columns: 1fr 1fr;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 100px;
 }
 
 .article-section-three-container {
     grid-template-columns: 1fr 5fr;
-    border: 1px solid black;
-    padding-left: 50px;
+    /* border: 1px solid black; */
+    padding: 0 100px 0 50px;
     margin-bottom: 180px;
 }
 
@@ -322,3 +321,46 @@ main section:nth-child(n+2){
     text-decoration: underline;
     color: blue;
 }
+
+/* Article section 4 */
+.article-section-four{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 48px 32px;
+    /* background: red; */
+    padding: 88px 88px 88px 52px;
+}
+
+.article-section-four-card {
+    background: coral;
+    padding: 32px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px hsl(0, 0%, 50%);
+}
+
+.article-section-four-card p:nth-child(1){
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.article-section-four-card h2{
+    font-size: 44px;
+    margin: 16px 48px 32px 0px;
+}
+
+.article-section-four-card p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.article-section-four-card button{
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+}
+
+.article-section-four-card button:hover{
+    cursor: pointer;
+}
+
