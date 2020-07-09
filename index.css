@@ -42,7 +42,6 @@ nav input{
 
 main section{
     position: relative;
-    color: white;
 }
 
 main section h1{
@@ -155,6 +154,43 @@ main section h1 span{
     justify-content: center;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
+main section:nth-child(n+2){
+    margin-bottom: 88px;
+}
+
+.link{
+    border-bottom: 3px solid red;
+    padding-bottom: 8px;
+}
+
+/* Person of the week section */
+#person-of-the-week{
+    grid-template-columns: 1fr 3fr;
+    margin: 0 88px 32px;
+}
+
+#person-of-the-week h3{
+    color: hsl(0, 0%, 40%);
+    padding-bottom: 32px;
+}
+
+#person-of-the-week p{
+    font-size: large;
+    line-height: 30px;
+}
+
+#person-of-the-week-image{
+    width: 250px;
+    height: 250px;
+}
 
 /* testing second article */
 
