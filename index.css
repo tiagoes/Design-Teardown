@@ -154,3 +154,87 @@ main section h1 span{
 .justify-center{
     justify-content: center;
 }
+
+
+/* testing second article */
+
+
+ .article-section-two {
+    color: black;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 1 px solid black;
+
+}
+
+.article-section-two-container:hover{
+    transform: scale(1.05);
+    transition-duration:0.5s;
+    
+}
+
+
+
+.article-section-two-container:hover > .article-section-two-arrow {
+    background-color: blue;
+    transition-duration:0.5s;
+  }
+  
+.article-section-two-container {
+    padding-left: 50px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.article-section-two-date {
+    color: rgba(139, 139, 139, 0.979);
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.article-section-two-container h2 {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.article-section-two-author {
+    color: rgb(114, 114, 114);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.article-section-two-author span{
+  text-decoration: underline;
+}
+
+.article-section-two-text{
+    color: blue;
+    font-size: 18px;
+    line-height: 35px;
+} 
+
+.article-section-two-arrow {
+  color: red; 
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: -50px;
+  padding: 50px 50px 50px 50px;
+}
+
+
+
+/* don not forget to see later */
+.main-article2-box:hover > .main-article2-arrow {
+  padding: 5px;
+  background-color: blue;
+  transition-duration:0.5s;
+}
+
+
+.article-section-two-container div{
+    height: 350px;
+}
