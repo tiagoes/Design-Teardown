@@ -1,271 +1,156 @@
-* {
-    box-sizing: border-box
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: gray;
+/* Nav */
+nav{
+    background: red;
+    padding: 20px 32px;
 }
 
-.navBar-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 1200px;
-    margin-right: auto;
-    margin-left : auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navBar-container_image {
+nav img{
     width: 50px;
-    height: auto;
-    padding-top: 25px;
 }
 
-.navBar-container a{
+nav div:nth-child(2) a{
     color: white;
     font-weight: 500;
     font-size: 25px;
 }
 
-.navBar-container a:hover {
+nav div:nth-child(2) a:hover{
     background-color: rgb(58, 58, 58);
     border:2px, solid rgb(58, 58, 58);
     border-radius: 10px;
     padding: 3px;
 }
 
-.navBar-container_input{
+nav input{
     border-radius: 10px;
     height: 50px;
     background-color: white;
     font-size: 20px;
 }
 
-#glass {
-    /* border: 1px solid black; */
-    width: 50px;
-    padding-left: 20px;
+/* Main section */
+
+#suggestions{
+    grid-template-columns: 1fr 1fr;
 }
 
-.navBar-container_input input {
-    height: 100%;
-    border: 0;
-    border-left: 1px solid black;
-    outline: none;
-    font-size: 20px;
+main section{
+    position: relative;
+    color: white;
 }
 
-/* main article */
-
-.main-article {
-    /* padding-top: 120px; */
+main section h1{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    width: 500px;
+    top: 50px;
+    left: 30%;
 }
 
-.main-article-top {
-    display: flex;
-}
-
-.main-article-top-right {
-    width: 50%;
-    padding-left: 50px;
-}
-
-.main-article-top-left {
-    width: 50%;
-    padding-left: 50px;
-}
-
-.main-article-bottom {
-    display: flex;
-}
-
-.main-article-bottom-right {;
-    width: 50%;
-    padding-left: 50px;
-}
-
-.main-article-bottom-left {
-    width: 50%;
-    padding-left: 50px;
-}
-
-/* commun mainArticle CSS */
-
-.main-article_writer {
-    display: flex;
-    align-items: center;
-    /* margin-top: 20px; */
-
-}
-
-.main-article_writer_image {
-    background-color: black;
-    border: 3px solid gray;
-    border-radius: 10px;
-    width: 50px;
-    height: 50px;
-    transform: rotate(-15deg);
-}
-
-.main-article_writer_image:hover{
-    transform: rotate(0deg);
-    transition-duration:0.7s;
+main section h1 span{
     background-color: white;
-    border-radius: 10px;
 }
 
-.main-article_writer p {
-    color: white;
-    padding-left: 20px;
+.card{
+    padding: 200px 0 48px 64px;
 }
 
-.main-article  h2 {
-    color: white;
+.card h2 {
+    /* color: white; */
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 50px;
     font-weight: 700;
 }
 
-.main-article_comments {
-    display: flex;
+.card-1{
+    background-color: darkred;
+}
+
+.card-2{
+    background-color: darkslateblue;
+}
+
+.card-3{
+    background: blue;
+}
+
+.card-4{
+    background-color: purple;
+}
+
+/* Test */
+
+.writer-image {
+    background-color: black;
+    border: 3px solid gray;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(-15deg);
+    margin-right: 16px;
+}
+
+.writer-image:hover{
+    transform: rotate(0deg);
+    transition-duration:0.7s;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.comments {
     align-items: center;
     margin-bottom: 50px;
 }
 
-
-.main-article_visits, 
-.main-article_comments p{
-    color: white;
-    margin-left:10px;
+.comments p, .likes p{
+    margin-right: 40px;
     font-size: 15px;
     font-weight: 700;
 }
 
-.main-article_comments_icon {
-    font-size: 25px;
-    color: white;
-    font-size: 15px;
-}
 
-.main-article_visits{
+/* Generic classes */
+.flex{
     display: flex;
 }
 
-/* .main-article_visits {
-
-} */
-
-.main-article_arrow {
-  color: white; 
-  font-size: 40px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-
+.flex-1{
+    flex: 1;
 }
 
-#firstArrow {
-    /* color: black; */
-    margin-top: 100px;
+.flex-2{
+    flex: 2;
 }
 
-/* mainArticleMiddleText */
-.main-article-middleText {
-    position: absolute;
-    color: black;
-    text-align: center;
-    font-size: 40px;
-    width: 500px;
-    top: 145px;
-    left: 30%;
+.flex-3{
+    flex: 3;
 }
 
-.main-article-middleText span {
-    background-color: white;
+.space-between{
+    justify-content: space-evenly;
 }
 
-/* secondBigArticle */
-.main-article2 {
-    display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background-color: white;
-
-}
-.main-article2-box:hover{
-    transform: scale(1.1);
-    /* background-color: red; */
-    transition-duration:0.5s;
+.align-center{
+    align-items: center;
 }
 
-.main-article2-box {
-    width: 30%;
-    padding-left: 50px;
-    background-color: white;
+.space-around{
+    justify-content: space-around;
 }
 
-.main-article2-date {
-    color: rgba(139, 139, 139, 0.979);
-    margin-bottom: 10px;
-    font-size: 15px;
+.grid{
+    display: grid;
 }
 
-.main-article2 h2 {
-    color: black;
-    font-size: 25px;
-    font-weight: 700;
-    text-decoration: underline;
-    margin-bottom: 30px;
-}
-
-.main-article2-author {
-    color: rgb(114, 114, 114);
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.main-article2-author span{
-  text-decoration: underline;
-}
-
-.main-article2-text{
-    color: blue;
-    font-size: 18px;
-    line-height: 35px;
-}
-
-.main-article2-arrow {
-  color: red; 
-  font-size: 30px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  /* padding: 20px;
-  background-color: blue; */
-}
-
-/* .main-article2-arrow:hover {
-  padding: 20px;
-  background-color: blue;
-  transition-duration:1s;
-} */
-
-
-/* don not forget to see later */
-/* .main-article2-box:hover > .main-article2-arrow {
-  padding: 5px;
-  background-color: blue;
-  transition-duration:0.5s;
-} */
-
-
-.main-article-top-left {
-    background-color: rgb(150, 148, 148);
-    padding-top: 120px;
-}
-
-.main-article-top-right {
-    background-color: rgba(172, 172, 172, 0.651);
-    padding-top: 120px;
+.justify-center{
+    justify-content: center;
 }
