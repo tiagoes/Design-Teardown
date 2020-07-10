@@ -28,7 +28,7 @@ nav div:nth-child(2) a {
 
 nav div:nth-child(2) a:hover {
   background-color: rgb(58, 58, 58);
-  border: 2px, solid rgb(58, 58, 58);
+  border: 2px solid rgb(58, 58, 58);
   border-radius: 10px;
   padding: 3px;
 }
@@ -212,12 +212,12 @@ main section:nth-child(n + 2) {
 /* Person of the week section */
 #person-of-the-week {
   grid-template-columns: 1fr 3fr;
-  margin: 0 88px 32px;
+  margin: 40px 88px 32px;
 }
 
 #person-of-the-week h3 {
   color: hsl(0, 0%, 10%);
-  padding-bottom: 32px;
+  padding: 16px 0 32px 24px;
 }
 
 #person-of-the-week p {
@@ -225,6 +225,7 @@ main section:nth-child(n + 2) {
   line-height: 30px;
   font-family: "Lato", sans-serif;
   color: white;
+  padding: 0 24px 24px;
 }
 
 #person-of-the-week a {
