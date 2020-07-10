@@ -93,6 +93,20 @@ main section h1 span {
   padding: 200px 64px 48px;
 }
 
+footer div {
+  padding: 0 400px;
+  text-align: center;
+  line-height: 36px;
+}
+
+.article-section-two-container div {
+  height: 350px;
+}
+
+.card a div {
+  height: 425px;
+}
+
 .card h2 {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -342,16 +356,6 @@ footer p:nth-child(1) {
   padding: 5px;
   background-color: blue;
   transition-duration: 0.5s;
-}
-
-footer div {
-  padding: 0 400px;
-  text-align: center;
-  line-height: 36px;
-}
-
-.article-section-two-container div {
-  height: 350px;
 }
 
 .article-section-three {
