@@ -27,12 +27,32 @@ nav div:nth-child(2) a:hover{
     padding: 3px;
 }
 
-nav input{
+/* nav input{
+    border-radius: 10px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+} */
+
+#searchBar {
+    border: 1px solid black;
     border-radius: 10px;
     height: 50px;
     background-color: white;
     font-size: 20px;
 }
+
+#searchBar input {
+    height: 100%;
+    border: 0;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+}
+#glass {
+    padding-left: 10px;
+}
+
 
 /* Main section */
 
@@ -366,3 +386,60 @@ main section:nth-child(n+2){
     cursor: pointer;
 }
 
+footer {
+    background-color: red;
+    margin-bottom: 200px;
+}
+footer p:nth-child(1){
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+#pFooter span {
+    text-decoration: underline;
+}
+
+#pFooter em {
+    font-style: italic;
+}
+
+ul li{
+    color: white;
+    display: inline-block;
+    /* list-style: circle; */
+    line-height: 40px;
+    font-size: 20px;
+}
+
+ul li:before { 
+    content: "• "; 
+    color: black;
+} 
+
+ul {
+    /* margin-bottom: 200px; */
+    text-align: center;
+    padding: 0 200px;
+}
+
+#pFooter{
+    color: yellow;
+    text-align: center;
+    line-height: 30px;
+    padding: 56px 430px 24px 430px;
+}
+
+footer a {
+    color: pink;
+    padding-right: 10px;
+    text-decoration: underline;
+}
+
+footer div {
+    padding: 0 400px;
+    text-align: center;
+    line-height: 36px;
+}
