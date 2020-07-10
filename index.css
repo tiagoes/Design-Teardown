@@ -358,6 +358,8 @@ main section:nth-child(n+2){
     padding: 16px;
     border-radius: 12px;
     border: none;
+    margin-top: 24px;
+    font-size: larger;
 }
 
 .article-section-four-card button:hover{
