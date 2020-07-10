@@ -9,7 +9,6 @@ body {
   background: hsl(0, 0%, 70%);
 }
 
-/* Nav */
 nav {
   padding: 20px 32px;
   height: 100px;
@@ -18,6 +17,17 @@ nav {
 nav img {
   width: 60px;
   margin-top: 50%;
+}
+
+footer a {
+  color: white;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+.article-section-three-container a {
+  text-decoration: underline;
+  color: darkgray;
 }
 
 nav div:nth-child(2) a {
@@ -32,13 +42,6 @@ nav div:nth-child(2) a:hover {
   border-radius: 10px;
   padding: 3px;
 }
-
-/* nav input{
-    border-radius: 10px;
-    height: 50px;
-    background-color: white;
-    font-size: 20px;
-} */
 
 #searchBar {
   border: 1px solid black;
@@ -55,11 +58,10 @@ nav div:nth-child(2) a:hover {
   outline: none;
   font-size: 20px;
 }
+
 #glass {
   padding-left: 10px;
 }
-
-/* Main section */
 
 #suggestions {
   grid-template-columns: 1fr 1fr;
@@ -92,7 +94,6 @@ main section h1 span {
 }
 
 .card h2 {
-  /* color: white; */
   margin-top: 25px;
   margin-bottom: 25px;
   font-size: 50px;
@@ -110,8 +111,6 @@ main section h1 span {
 .light-gray {
   background-color: hsl(0, 0%, 50%);
 }
-
-/* Test */
 
 .writer-image {
   background-color: hsl(0, 0%, 20%);
@@ -142,7 +141,6 @@ main section h1 span {
   font-weight: 700;
 }
 
-/* Generic classes */
 .flex {
   display: flex;
 }
@@ -209,7 +207,6 @@ main section:nth-child(n + 2) {
   padding-bottom: 8px;
 }
 
-/* Person of the week section */
 #person-of-the-week {
   grid-template-columns: 1fr 3fr;
   margin: 40px 88px 32px;
@@ -218,6 +215,52 @@ main section:nth-child(n + 2) {
 #person-of-the-week h3 {
   color: hsl(0, 0%, 10%);
   padding: 16px 0 32px 24px;
+}
+
+.article-section-four-card p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Lato", sans-serif;
+}
+
+.article-section-three-container p {
+  font-size: 17px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+}
+
+footer p:nth-child(1) {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.article-section-three-container p:nth-child(1) {
+  color: hsl(0, 0%, 15%);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.article-section-two-author span {
+  text-decoration: underline;
+}
+
+.article-section-three-container p span {
+  color: darkgray;
+  font-size: 15px;
+}
+
+.article-section-three-container p:nth-child(1) span {
+  text-decoration: underline;
+  color: hsl(0, 0%, 10%);
+}
+
+.article-section-four-card p:nth-child(1) {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 #person-of-the-week p {
@@ -238,8 +281,6 @@ main section:nth-child(n + 2) {
   height: 250px;
 }
 
-/* testing second article */
-
 .article-section-two {
   color: black;
   grid-template-columns: 1fr 1fr 1fr;
@@ -247,21 +288,26 @@ main section:nth-child(n + 2) {
   padding-bottom: 100px;
 }
 
+.article-section-two-container {
+  padding: 30px 50px 0;
+}
+
 .article-section-two-container:hover {
   transform: scale(1.05);
   transition-duration: 0.5s;
 }
 
+.article-section-two-arrow {
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: -50px;
+  padding: 50px 50px 50px 50px;
+}
+
 .article-section-two-container:hover > .article-section-two-arrow {
   background-color: hsl(0, 0%, 15%);
   transition-duration: 0.5s;
-}
-
-.article-section-two-container {
-  padding: 30px 50px 0;
-
-  /* background-color: white; */
-  /* border: 1px solid black; */
 }
 
 .article-section-two-date {
@@ -284,10 +330,6 @@ main section:nth-child(n + 2) {
   margin-bottom: 20px;
 }
 
-.article-section-two-author span {
-  text-decoration: underline;
-}
-
 .article-section-two-text {
   color: white;
   font-size: 18px;
@@ -296,48 +338,31 @@ main section:nth-child(n + 2) {
   font-weight: 300;
 }
 
-.article-section-two-arrow {
-  color: white;
-  font-size: 30px;
-  margin-top: 50px;
-  margin-left: -50px;
-  padding: 50px 50px 50px 50px;
-}
-
-/* don not forget to see later */
 .main-article2-box:hover > .main-article2-arrow {
   padding: 5px;
   background-color: blue;
   transition-duration: 0.5s;
 }
 
+footer div {
+  padding: 0 400px;
+  text-align: center;
+  line-height: 36px;
+}
+
 .article-section-two-container div {
   height: 350px;
 }
 
-/* article three */
 .article-section-three {
   grid-template-columns: 1fr 1fr;
-  /* border: 1px solid black; */
   margin-top: 100px;
 }
 
 .article-section-three-container {
   grid-template-columns: 1fr 5fr;
-  /* border: 1px solid black; */
   padding: 20px 100px 20px 50px;
   margin-bottom: 140px;
-}
-
-.article-section-three-container p:nth-child(1) {
-  color: hsl(0, 0%, 15%);
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.article-section-three-container p:nth-child(1) span {
-  text-decoration: underline;
-  color: hsl(0, 0%, 10%);
 }
 
 .article-section-three-container h2 {
@@ -345,56 +370,25 @@ main section:nth-child(n + 2) {
   margin: 18px 0;
 }
 
+.article-section-four-card h2 {
+  font-size: 44px;
+  margin: 16px 48px 32px 0;
+}
+
 .article-section-three-container h2:hover {
   color: darkgray;
 }
 
-.article-section-three-container p {
-  font-size: 17px;
-  line-height: 30px;
-  font-family: "Lato", sans-serif;
-}
-
-.article-section-three-container p span {
-  color: darkgray;
-  font-size: 15px;
-}
-
-.article-section-three-container a {
-  text-decoration: underline;
-  color: darkgray;
-}
-
-/* Article section 4 */
 .article-section-four {
   grid-template-columns: 1fr 1fr;
   grid-gap: 48px 32px;
-  /* background: red; */
   padding: 88px 88px 88px 52px;
 }
 
 .article-section-four-card {
   padding: 32px;
-  /* border: 1px solid black; */
   border-radius: 8px;
-  box-shadow: 0px 5px 10px hsl(0, 0%, 50%);
-}
-
-.article-section-four-card p:nth-child(1) {
-  font-size: 15px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.article-section-four-card h2 {
-  font-size: 44px;
-  margin: 16px 48px 32px 0px;
-}
-
-.article-section-four-card p {
-  font-size: 20px;
-  line-height: 32px;
-  font-family: "Lato", sans-serif;
+  box-shadow: 0 5px 10px hsl(0, 0%, 50%);
 }
 
 .article-section-four-card button {
@@ -414,13 +408,6 @@ footer {
   padding-bottom: 60px;
   font-family: "Lato", sans-serif;
 }
-footer p:nth-child(1) {
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 20px 0;
-}
 
 #pFooter span {
   text-decoration: underline;
@@ -433,19 +420,17 @@ footer p:nth-child(1) {
 ul li {
   color: white;
   display: inline-block;
-  /* list-style: circle; */
   line-height: 40px;
   font-size: 20px;
   font-weight: 300;
 }
 
-ul li:before {
+ul li::before {
   content: "• ";
   color: black;
 }
 
 ul {
-  /* margin-bottom: 200px; */
   text-align: center;
   padding: 0 200px;
 }
@@ -455,16 +440,4 @@ ul {
   text-align: center;
   line-height: 30px;
   padding: 56px 430px 24px 430px;
-}
-
-footer a {
-  color: white;
-  padding-right: 10px;
-  text-decoration: underline;
-}
-
-footer div {
-  padding: 0 400px;
-  text-align: center;
-  line-height: 36px;
 }
