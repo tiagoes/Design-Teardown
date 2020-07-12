@@ -1,0 +1,447 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Do Hyeon", sans-serif;
+  background: hsl(0, 0%, 70%);
+}
+
+nav {
+  padding: 20px 32px;
+  height: 100px;
+}
+
+nav img {
+  width: 60px;
+  margin-top: 50%;
+}
+
+footer a {
+  color: white;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+.article-section-three-container a {
+  text-decoration: underline;
+  color: darkgray;
+}
+
+nav div:nth-child(2) a {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+nav div:nth-child(2) a:hover {
+  background-color: rgb(58, 58, 58);
+  border: 2px solid rgb(58, 58, 58);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+#searchBar {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 50px;
+  background-color: white;
+  font-size: 20px;
+}
+
+#searchBar input {
+  height: 100%;
+  border: 0;
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+}
+
+#glass {
+  padding-left: 10px;
+}
+
+#suggestions {
+  grid-template-columns: 1fr 1fr;
+}
+
+#suggestions a {
+  color: lightgray;
+}
+
+main section {
+  position: relative;
+}
+
+main section h1 {
+  position: absolute;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  width: 500px;
+  top: 50px;
+  left: 30%;
+}
+
+main section h1 span {
+  background-color: white;
+}
+
+.card {
+  padding: 200px 64px 48px;
+}
+
+footer div {
+  padding: 0 400px;
+  text-align: center;
+  line-height: 36px;
+}
+
+.article-section-two-container div {
+  height: 350px;
+}
+
+.card a div {
+  height: 425px;
+}
+
+.card h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.dark-gray {
+  background-color: hsl(0, 0%, 30%);
+}
+
+.medium-gray {
+  background-color: hsl(0, 0%, 40%);
+}
+
+.light-gray {
+  background-color: hsl(0, 0%, 50%);
+}
+
+.writer-image {
+  background-color: hsl(0, 0%, 20%);
+  border: 3px solid gray;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(-15deg);
+  margin-right: 16px;
+}
+
+.writer-image:hover {
+  transform: rotate(0deg);
+  transition-duration: 0.7s;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.comments {
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.comments p,
+.likes p {
+  margin-right: 40px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-half {
+  flex: 0.5;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.space-between {
+  justify-content: space-evenly;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.grid {
+  display: grid;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-self-center {
+  justify-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+.font-anton {
+  font-family: "Anton", sans-serif;
+}
+
+main section:nth-child(n + 2) {
+  margin-bottom: 88px;
+}
+
+.link {
+  border-bottom: 3px solid hsl(0, 0%, 10%);
+  color: white;
+  padding-bottom: 8px;
+}
+
+#person-of-the-week {
+  grid-template-columns: 1fr 3fr;
+  margin: 40px 88px 32px;
+}
+
+#person-of-the-week h3 {
+  color: hsl(0, 0%, 10%);
+  padding: 16px 0 32px 24px;
+}
+
+.article-section-four-card p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Lato", sans-serif;
+}
+
+.article-section-three-container p {
+  font-size: 17px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+}
+
+footer p:nth-child(1) {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.article-section-three-container p:nth-child(1) {
+  color: hsl(0, 0%, 15%);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.article-section-two-author span {
+  text-decoration: underline;
+}
+
+.article-section-three-container p span {
+  color: darkgray;
+  font-size: 15px;
+}
+
+.article-section-three-container p:nth-child(1) span {
+  text-decoration: underline;
+  color: hsl(0, 0%, 10%);
+}
+
+.article-section-four-card p:nth-child(1) {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#person-of-the-week p {
+  font-size: large;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  color: white;
+  padding: 0 24px 24px;
+}
+
+#person-of-the-week a {
+  color: darkgray;
+  text-decoration: underline;
+}
+
+#person-of-the-week-image {
+  width: 250px;
+  height: 250px;
+}
+
+.article-section-two {
+  color: black;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.article-section-two-container {
+  padding: 30px 50px 0;
+}
+
+.article-section-two-container:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+.article-section-two-arrow {
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: -50px;
+  padding: 50px 50px 50px 50px;
+}
+
+.article-section-two-container:hover > .article-section-two-arrow {
+  background-color: hsl(0, 0%, 15%);
+  transition-duration: 0.5s;
+}
+
+.article-section-two-date {
+  color: hsl(0, 0%, 90%);
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.article-section-two-container h2 {
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.article-section-two-author {
+  color: hsl(0, 0%, 80%);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.article-section-two-text {
+  color: white;
+  font-size: 18px;
+  line-height: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.main-article2-box:hover > .main-article2-arrow {
+  padding: 5px;
+  background-color: blue;
+  transition-duration: 0.5s;
+}
+
+.article-section-three {
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+}
+
+.article-section-three-container {
+  grid-template-columns: 1fr 5fr;
+  padding: 20px 100px 20px 50px;
+  margin-bottom: 140px;
+}
+
+.article-section-three-container h2 {
+  font-size: 36px;
+  margin: 18px 0;
+}
+
+.article-section-four-card h2 {
+  font-size: 44px;
+  margin: 16px 48px 32px 0;
+}
+
+.article-section-three-container h2:hover {
+  color: darkgray;
+}
+
+.article-section-four {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 48px 32px;
+  padding: 88px 88px 88px 52px;
+}
+
+.article-section-four-card {
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px hsl(0, 0%, 50%);
+}
+
+.article-section-four-card button {
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+  margin-top: 24px;
+  font-size: larger;
+}
+
+.article-section-four-card button:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: red;
+  padding-bottom: 60px;
+  font-family: "Lato", sans-serif;
+}
+
+#pFooter span {
+  text-decoration: underline;
+}
+
+#pFooter em {
+  font-style: italic;
+}
+
+ul li {
+  color: white;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+ul li::before {
+  content: "• ";
+  color: black;
+}
+
+ul {
+  text-align: center;
+  padding: 0 200px;
+}
+
+#pFooter {
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  padding: 56px 430px 24px 430px;
+}
